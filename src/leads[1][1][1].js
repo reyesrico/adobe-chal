@@ -1,4 +1,4 @@
-export default {
+const data = {
  "leads": [
     {
       "_id": "jkj238238jdsnfsj23",
@@ -82,3 +82,5 @@ export default {
     }
   ]
 };
+
+export default data;
