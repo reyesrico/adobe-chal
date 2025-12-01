@@ -59,7 +59,7 @@ class App extends Component {
       <div>
         <h2 className="app__log-title">Log</h2>
         <div className="app__log">
-        { log.map((info, index) => <div class={`app_log-record ${this.isTakingOutLog(info) ? 'app__warning' : ''}`} key={index}>{info}</div>) }
+        { log.map((info, index) => <div className={`app_log-record ${this.isTakingOutLog(info) ? 'app__warning' : ''}`} key={index}>{info}</div>) }
         </div>
       </div>
     );
@@ -88,8 +88,8 @@ class App extends Component {
           records.map((record, index) => {
             return (
               <div className="app__record" key={index}>
-                <div class="app__id">Id: {record._id} </div>
-                <div class="app__email">Email: {record.email} </div>
+                <div className="app__id">Id: {record._id} </div>
+                <div className="app__email">Email: {record.email} </div>
                 <div>First Name: {record.firstName} </div>
                 <div>Last Name: {record.lastName} </div>
                 <div>Address: {record.address} </div>
