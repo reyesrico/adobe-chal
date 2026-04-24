@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { indexOf, reduce, sortBy } from 'lodash';
-import file from './leads[1][1][1]';
+import file from './leads[1][1][1].js';
 import './App.css';
 
 class App extends Component {
